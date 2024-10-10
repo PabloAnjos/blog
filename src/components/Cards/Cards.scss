@@ -1,0 +1,71 @@
+.card {
+  background-color: #17171a;
+  width: 76rem;
+  height: 15rem;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #e07b67;
+  padding: 40px;
+  margin-top: 50px;
+
+  .data-and-icon {
+    display: flex;
+    align-items: center;
+    gap: 981px;
+
+    @media (max-width: 768px) {
+      gap: 80px;
+    }
+  }
+
+  .published-date {
+    font-family: "Inter", serif;
+    color: #e07b67;
+    width: 150px;
+  }
+
+  img {
+    width: 28px;
+    height: 24px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #e07b67;
+      transition: 0.3s;
+    }
+  }
+
+  .numbers-of-likes {
+    font-size: 50px;
+    color: #fff;
+  }
+
+  h1 {
+    font-family: "Space Grotesk", serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+    max-width: 684px;
+    margin-top: 10px;
+
+    @media (max-width: 768px) {
+      width: 300px;
+      margin-top: 20px;
+    }
+  }
+
+  p {
+    font-family: "Inter", serif;
+    color: #afabb6;
+    font-weight: 500;
+    margin-top: 10px;
+  }
+
+  /* responsividade */
+  @media (max-width: 768px) {
+    width: 22rem;
+    height: 24rem;
+    margin: auto;
+    margin-top: 50px;
+  }
+}
