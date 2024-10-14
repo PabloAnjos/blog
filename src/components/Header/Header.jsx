@@ -7,7 +7,7 @@ export function Header() {
         <>
             <header>
                     <h1>Code<span>Lab</span></h1>
-                    <input type="search" name="" id="" placeholder="Pesquisar no blog" />
+                    <input type="search" name="" className="input-pesquisa" placeholder="Pesquisar no blog" />
             </header>
         </>
     )

@@ -19,19 +19,18 @@ header {
     }
   }
 
-  input {
+  .input-pesquisa {
     width: 76rem;
     height: 3.5rem;
-    border-style: solid;
-    border-radius: 8px;
-    padding: 16px 24px 16px 24px;
     background-color: #202024;
-    border-color: #252529;
     color: #fff;
-
     font-family: "Inter", serif;
     font-weight: 500;
     font-size: 1rem;
+    padding: 16px 24px 16px 24px;
+    border: 2px solid #252529;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
 
     @media (max-width: 768px) {
       width: 80%;
